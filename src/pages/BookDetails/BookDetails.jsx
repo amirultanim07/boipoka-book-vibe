@@ -38,7 +38,7 @@ const BookDetails = () => {
             <img className='w-48' src={image} alt="" />
             <h5>{bookName}</h5>
             <ToastContainer />
-            <button onClick={() => handleMarkAsRead(id)} className="btn btn-accent m-2">Mar as Read</button>
+            <button onClick={() => handleMarkAsRead(id)} className="btn btn-accent m-2">Mark as Read</button>
             <button className="btn btn-info m-2">Add To WishList</button>
         </div>
     );
